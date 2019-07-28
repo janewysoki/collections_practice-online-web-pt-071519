@@ -26,7 +26,8 @@ def find_a(array)
   array.start_with?("a")
 end
 
-def sum_array
+def sum_array(array)
+  array.inject(:+)
 end
 
 def add_s
